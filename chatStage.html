@@ -22,10 +22,12 @@
 				embedded_svc.settings.language = 'de'; //For example, enter 'en' or 'en-US'
 
       
-
-				      embedded_svc.settings.defaultMinimizedText = 'Kontaktiere uns';
+if(language == 'de'){
+	embedded_svc.settings.defaultMinimizedText = 'Kontaktiere uns';
 				      embedded_svc.settings.disabledMinimizedText = 'Kontaktiere uns';              
 				      embedded_svc.settings.offlineSupportMinimizedText = 'Kontaktiere uns';
+}
+				      
 
 
 				embedded_svc.settings.enabledFeatures = ['LiveAgent'];
